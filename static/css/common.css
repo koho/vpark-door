@@ -1,0 +1,170 @@
+@media(prefers-color-scheme:dark) {
+    body {
+        background-color: #111 !important;
+        color: #fff;
+    }
+
+    .card {
+        background-color: #111 !important;
+        border: 1px solid rgb(255,255,255);
+    }
+
+    .table {
+        color: #fff !important;
+    }
+
+    .footer-login {
+        color: #fff !important;
+    }
+
+    h2.heading {
+        color: #fff !important;
+    }
+}
+
+.btn-login {
+    width: 100%;
+}
+
+.form-login {
+    padding: 16px;
+}
+
+.img-container {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.body-common {
+    background-color: #f9f9f9;
+    padding: 16px 26px;
+}
+
+.footer-login {
+    text-align: center;
+    color: #586069;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.img-inline {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.fancy-progress {
+    color: #fff;
+    display: block;
+    height: 100%;
+    background-color: rgb(0,123,255);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(0,123,255)), color-stop(1, rgb(32,140,255)) );
+    background-image: -moz-linear-gradient( center bottom, rgb(0,123,255) 37%, rgb(32,140,255) 69% );
+    position: relative;
+    overflow: hidden;
+}
+
+.fancy-progress > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) );
+    background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent );
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+    overflow: hidden;
+}
+
+.success {
+    background-color: rgb(43,194,83) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(43,194,83)), color-stop(1, rgb(84,240,84))) !important;
+    background-image: -moz-linear-gradient(center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69%) !important;
+}
+
+.success > span {
+    -webkit-animation: none;
+    background-image: none;
+}
+
+.failure {
+    background-color: rgb(200,35,51) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(200,35,51)), color-stop(1, rgb(253, 85, 101))) !important;
+    background-image: -moz-linear-gradient(center bottom, rgb(200,35,51) 37%, rgb(253, 85, 101) 69%) !important;
+}
+
+.failure > span {
+    -webkit-animation: none;
+    background-image: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+       background-position: 0 0;
+    }
+    100% {
+       background-position: 50px 50px;
+    }
+}
+
+.door-card {
+    margin: 8px;
+    width: 150px;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+}
+
+.door-card:hover {
+    color: #fff;
+    display: block;
+    height: 100%;
+    background-color: rgb(0,123,255);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(0,123,255)), color-stop(1, rgb(32,140,255)) );
+    background-image: -moz-linear-gradient( center bottom, rgb(0,123,255) 37%, rgb(32,140,255) 69% );
+    position: relative;
+    overflow: hidden;
+}
+
+.card-container {
+    padding: 8px;
+    float: left;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+h2.heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 16px 16px 0;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaeaea;
+    color: #2e2e2e;
+}
+
+.account-indicator {
+    padding-right: 8px;
+    margin-bottom: 0 !important;
+    color: #fff
+}
+
+.account-indicator:hover {
+    color: hsla(0,0%,100%,.7);
+    text-decoration: none;
+}
